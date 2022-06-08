@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  padding: 5px 20px;
+}
+.list div {
+  display: inline;
+  align-self: center;
+}
+.list .shenqingren {
+  margin-right: auto;
+  color: #818181;
+}
+.list .num {
+  margin-right: 10px;
+}

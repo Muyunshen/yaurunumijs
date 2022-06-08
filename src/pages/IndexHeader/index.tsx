@@ -2,7 +2,7 @@ import './index.less';
 import { history } from 'umi';
 import { useState } from 'react';
 
-export default function Header() {
+export default function IndexHeader() {
   //   const Link = (e: any) => {
   //     if (e.target.innerText === '推荐') {
   //       history.push('/menu_1');
@@ -18,5 +18,12 @@ export default function Header() {
   //   const HistoryGo = () => {
   //     history.go(1);
   //   };
-  return <div className="navigation"></div>;
+  return (
+    <div className="navigation">
+      <div className="background">
+        <div className="jiantou"></div>
+        <div className="text">学生外出申请</div>
+      </div>
+    </div>
+  );
 }

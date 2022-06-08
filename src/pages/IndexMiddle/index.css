@@ -1,0 +1,11 @@
+.card {
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+}
+.card .sign {
+  background-color: green;
+  padding: 3px 0;
+  width: 60px;
+  border-radius: 50px;
+}
