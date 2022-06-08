@@ -7,8 +7,8 @@ export default defineConfig({
   title: '全屏页面测试',
   routes: [{ path: '/', component: '@/pages/index' }],
   outputPath: 'build',
-  publicPath: './',
-  // publicPath: 'https://muyunshen.github.io/yaurunumijs/',
+  // publicPath: './',
+  publicPath: 'https://muyunshen.github.io/yaurunumijs/',
   history: { type: 'hash' },
   fastRefresh: {},
 });
